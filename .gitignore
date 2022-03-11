@@ -34,3 +34,6 @@ build/
 
 ##### ADDED
 .env
+*.swp
+*.swo
+
