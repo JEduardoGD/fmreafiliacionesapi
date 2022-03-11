@@ -36,4 +36,5 @@ build/
 .env
 *.swp
 *.swo
+/postgres_data
 
