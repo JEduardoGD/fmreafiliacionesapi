@@ -6,6 +6,6 @@ import mx.fmre.afiliacionesapi.entity.AsocEstatal;
 
 public interface AsocEstatalService {
 
-	List<AsocEstatal> getAll();
+	List<AsocEstatal> findAll();
 
 }

@@ -16,7 +16,7 @@ public class AsocEstatalServiceImpl implements AsocEstatalService {
 	private AsocEstatalRepository asocEstatalRepository;
 
 	@Override
-	public List<AsocEstatal> getAll() {
-		return asocEstatalRepository.getAll();
+	public List<AsocEstatal> findAll() {
+		return asocEstatalRepository.findAll();
 	}
 }

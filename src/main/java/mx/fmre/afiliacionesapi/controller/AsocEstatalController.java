@@ -14,7 +14,7 @@ public class AsocEstatalController {
 	@Autowired
 	AsocEstatalService asocEstatalService;
 
-	public List<AsocEstatal> getAll() {
-		return asocEstatalService.getAll();
+	public List<AsocEstatal> findAll() {
+		return asocEstatalService.findAll();
 	}
 }
