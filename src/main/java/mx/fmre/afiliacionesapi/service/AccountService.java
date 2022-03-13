@@ -8,7 +8,7 @@ public interface AccountService {
 
 	List<Account> findAll();
 
-	void deleteByIdu(String idu);
+	boolean deleteByIdu(String idu);
 
 	Account save(Account account);
 

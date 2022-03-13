@@ -26,8 +26,8 @@ public class AccountController {
 	}
 
 	@DeleteMapping("/{idu}")
-	void deleteEmployee(@PathVariable String idu) {
-		accountService.deleteByIdu(idu);
+	boolean deleteEmployee(@PathVariable String idu) {
+		return accountService.deleteByIdu(idu);
 	}
 
 	@PutMapping
